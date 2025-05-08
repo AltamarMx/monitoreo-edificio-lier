@@ -1,0 +1,447 @@
+---
+title: "Monitoreo térmico y energético de edificaciones con software libre"
+lang: es
+
+author:
+  name: Guillermo Barrios del Valle
+  email: gbv@ier.unam.mx
+  afiliation: Energía en Edificaciones, IER-UNAM
+format: 
+  revealjs:
+    slide-number: c/t  
+    touch: true
+    footer: VI Jornada La Salle, Oaxaca
+---
+
+## Tomen la presentación 
+
+![](img/qrcode_posgrado.png){fig-align="center"}
+
+
+
+
+
+## Grupo Energía en Edificaciones (GEE)
+
+
+<br>
+<br>
+
+Estudiamos los fundamentos físicos, el desarrollo y la implementación de estrategias de diseño bioclimático para el confort térmico, lumínico y la calidad de aire en edificaciones con el menor consumo posible de energía.  
+
+
+
+::: footer
+[Más información del GEE](https://www.ier.unam.mx/Eficiencia_y_sustentabilidad.html)
+:::
+
+## Diseño bioclimático
+
+
+##### Baruch Givoni
+
+> ... busca adaptar los edificios al clima local mediante estrategias pasivas como la ventilación natural, el uso de masa térmica, color y otras para lograr confort térmico sin recurrir a sistemas mecánicos.
+
+##### Matheos Santamouris
+
+> ... optimiza las relaciones energéticas entre el edificio y su entorno, utilizando recursos naturales y técnicas de diseño para crear espacios confortables y energéticamente eficientes.
+
+
+
+## Confort térmico  
+
+<br>
+<br>
+
+Es el estado en el que una persona **se siente térmicamente satisfecha** y no desea modificar su entorno. Depende de variables físicas (temperatura del aire, humedad relativa, velocidad del aire), así como del metabolismo, el tipo de ropa, y factores psicológicos y culturales.
+
+<!-- 
+## ¿Por qué nos interesa el diseño bioclimático y el confort térmico?
+
+
+:::{.center}
+<br>
+<br>
+
+- Eficiencia energética al usar a/a
+- Vivienda adecuada cuando no se usa a/a
+::: -->
+
+
+
+
+<!-- 
+
+
+## Diseño bioclimático para EE y confort térmico
+
+:::: {.columns}
+
+::: {.column}
+1. Orientación de fachadas 
+1. Colores adecuados
+1. Ubicación de ventanas
+1. Uso de protecciones solares
+:::
+
+
+::: {.column}
+5. Sistemas constructivos muros y techos
+1. Ventilación natural
+1. Iluminación natural
+1. Sistemas bajo consumo energético
+:::
+
+:::: -->
+
+
+
+
+## Guadalupe Huelsz
+
+:::: {.columns}
+
+:::{.column width="30%"}
+![Guadalupe Huelsz](img/huelsz.png)  
+[ghl@ier.unam.mx](mailto:ghl@ier.unam.mx)
+:::
+
+:::{.column width="70%"}
+<!-- ### Líneas de investigación -->
+<br>
+
+- Ventilación natural en edificaciones
+- Confort térmico
+- Diseño bioclimático 
+- Evaluación de normativas (NOM-020, NOM-008)
+:::
+
+::::
+
+
+## Jorge Rojas
+
+:::: {.columns}
+
+:::{.column width="30%"}
+![Jorge Rojas](img/jorge.jpg)  
+[jrm@ier.unam.mx](mailto:jrm@ier.unam.mx)
+:::
+
+:::{.column width="70%"}
+<!-- ### Líneas de investigación -->
+<br>
+
+- Enfriamiento radiativo
+- Enfriamiento evaporativo
+- Evaluación experimental de sistemas constructivos
+- Evaluación de normativas (NOM-020, NOM-008)
+:::
+
+::::
+
+
+## Miriam Cruz
+
+:::: {.columns}
+
+:::{.column width="30%"}
+![Miriam Cruz](img/miriam.jpg)  
+[mvcs@ier.unam.mx](mailto:mvcs@ier.unam.mx)
+:::
+
+:::{.column width="70%"}
+<!-- ### Líneas de investigación -->
+<br>
+
+- Estrategias bioclimáticas
+- Simulaciones energéticas
+- Ventilación natural
+- Evaluación de normativas (NOM-020, NOM-008)
+:::
+
+::::
+
+## Guillermo Barrios 
+
+:::: {.columns}
+
+:::{.column width="30%"}
+![Guillermo Barrios](img/memo.webp)  
+[gbv@ier.unam.mx](mailto:gbv@ier.unam.mx)
+:::
+
+:::{.column width="70%"}
+<!-- ### Líneas de investigación -->
+
+
+- Simulación energética de edificaciones
+- Evaluación de la iluminación natural
+- Monitoreo de edificaciones IoT
+- Edificaciones Energía Cero NZEB
+- Ciencia  [__reproducible__] de datos
+- Evaluación de normativas (NOM-020, NOM-008)
+:::
+
+::::
+
+::: footer
+[Página personal](https://altamarmx.github.io/)
+:::
+
+
+
+
+## Edificaciones : ODS y vivienda
+
+<br>
+
+::: {.callout-important}
+## ODS 7: Energía asequible y no contaminante
+
+- **Meta 7.3**: Duplicar la eficiencia energética.
+:::
+
+::: {.callout-important}
+## ODS 10: Reducción de las desigualdades
+
+- **Confort térmico no tiene precio.**
+:::
+
+::: {.callout-important}
+## ODS 11: Ciudades y comunidades sostenibles
+
+- **Meta 11.6**: Reducir el impacto ambiental de las ciudades.
+:::
+
+
+
+
+
+## ENCEVI 2018 – INEGI
+
+<br>
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+✅ **Viviendas con aire acondicionado**  
+**4,908,985**  
+(14.8%)
+
+:::
+
+::: {.column width="50%"}
+
+🛑 **Viviendas sin aire acondicionado**  
+**28,253,163**  
+(85.2%)
+
+:::
+
+::::
+
+<br>
+
+**Fuente:** Encuesta Nacional sobre Consumo de Energéticos en Viviendas (ENCEVI), 2018 – INEGI  
+[https://www.inegi.org.mx/programas/encevi/2018](https://www.inegi.org.mx/programas/encevi/2018)
+
+
+## 
+
+:::{.center}
+### ¿Cómo resolvemos esto?
+:::
+
+
+
+
+## Alta Densidad por Jorge Taboada
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![Alta densidad por Jorge Taboada](img/casas_para_todos.png){width=100% .lightbox}
+
+:::
+
+::: {.column width="50%"}
+
+
+- Orientación uniforme
+- Sin protección solar
+- Ventanas  mal ubicadas
+- Ausencia de patios o espacios intermedios. 
+- No vegetación
+
+:::
+ 
+::::
+
+## Alta Densidad por Jorge Taboada
+
+![[Alta Densidad por Jorge Taboada en Instagram](https://www.instagram.com/p/Bg2FTznlk_v/)](img/cajas_blancas.png){width=70% .lightbox} 
+
+
+## Programa de vivienda y regularización
+
+<br>
+<br>
+
+
+![](img/sheinbaum.png){width=70% .lightbox}
+
+
+
+
+## Digitalización de edificaciones
+
+- Conocer el desempeño térmico y energético
+- Mejorar el confort térmico
+- Mejora de la eficiencia energética
+- Impacto de usuari@s 
+- Seguridad y ahorro
+- __IA y predicción__
+
+
+::: {.callout-important}
+<!-- ## ODS 11: Ciudades y comunidades sostenibles -->
+Usar software, hardware libre y ser reproducible
+:::
+
+
+
+##  LaTA+
+
+<br>
+
+- DTHIS
+- DTHIS-C
+- DH2O
+- DVentanas
+- DFP
+- Reloj inteligente
+- [Herramienta Grados-Hora](https://altamar.shinyapps.io/grados-hora/) con [EPWs](https://climate.onebuilding.org/)
+
+
+
+![](img/monitor_co2.jpg){.absolute .fragment top="70" right="80" height="500"}
+
+
+
+## Laboratorio de Tecnologías Abiertas y Más (LaTA+)
+
+Desarrollo y prototipado de soluciones reproducibles basadas en ciencia de datos para impulsar:
+
+- **Investigación**  
+  <!-- Creación de sensores y plataformas de código abierto para recopilar y analizar datos experimentales. -->
+
+- **Educación**  
+  <!-- Elaboración de kits y materiales interactivos que faciliten el aprendizaje de tecnologías emergentes. -->
+
+- **Innovación tecnológica**  
+  <!-- Construcción de herramientas modulares y escalables para proyectos de IoT y sistemas embebidos. -->
+
+
+
+## DTHIS-C
+
+Dispositivo portátil para evaluar el confort térmico con y sin WiFi.
+
+
+- Temperatura aire y radiante 
+- Humedad relativa  
+- Velocidad viento  
+- CO2
+- Mapas de Iluminancia  
+- Sonido
+
+
+
+::: footer
+[Repositorio DTHIS-C](https://github.com/lata-mas/DTHIS-C_JoseRra)
+:::
+
+
+## DTHIS
+
+
+
+- Temperatura aire, HR, CO2
+- Mapas de Iluminancia  
+- Sonido
+
+Basado en RaspberryPi. 
+
+
+
+::: footer
+[Repositorio DTHIS](https://github.com/lata-mas/DTHIS_Jorge)
+:::
+
+
+
+## IoT smartwatch para confort térmico
+
+::: columns
+
+::: column
+**Objetivo**  
+Presentar un smartwatch IoT para la recolección de datos de confort térmico basado en tecnologías abiertas.
+
+**Encuestas horarias**  
+- Nivel de aislamiento de la ropa (clo) ¿
+- Actividad metabólica (met)  
+- Ubicación 
+- Sensación térmica y aceptación 
+:::
+
+::: column
+**Mediciones fisiológicas**  
+- Temperatura de piel en muñeca 
+- Frecuencia cardíaca 
+
+**Hardware de bajo costo**  
+- XIAO ESP32C3, GY-906, MAX30102, XIAO Round Display  
+- Publicación de datos en tiempo real en plataforma IoT 
+:::
+
+:::
+
+
+
+
+## Smartwatch IoT open-source para datos de confort térmico
+
+- **Encuestas**: clo (ropa), met, ubicación, sensación térmica  
+- **Fisiológicas**: temperatura de piel (muñeca), frecuencia cardíaca  
+- **Hardware**: XIAO ESP32C3, GY-906, MAX30102, XIAO Round Display; transmisión en tiempo real  
+
+
+
+## Smartwatch IoT open-source para datos de confort térmico
+
+![](img/esquemas.jpg){width=100% .lightbox}
+
+
+
+## Smartwatch IoT open-source para datos de confort térmico
+
+![](img/pantallas.jpg){width=100% .lightbox}
+
+
+
+## Smartwatch IoT open-source para datos de confort térmico
+
+![](img/ajuste.jpg){width=100% .lightbox}
+
+
+
+## [AltamarMx.github.io](https://altamarmx.github.io/)  
+
+
+![](img/qr_altamar.png){fig-align="center"} 
