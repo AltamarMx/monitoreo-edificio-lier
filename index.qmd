@@ -15,7 +15,7 @@ format:
 
 ## Tomen la presentación 
 
-![](img/qrcode_posgrado.png){fig-align="center"}
+![](img/qrcode_altamarmx.github.io.png){fig-align="center"}
 
 
 
@@ -251,7 +251,7 @@ Es el estado en el que una persona **se siente térmicamente satisfecha** y no d
 ## 
 
 :::{.center}
-### ¿Cómo resolvemos esto?
+### ¿Cómo resolvemos estas realidades?
 :::
 
 
@@ -385,34 +385,6 @@ Basado en RaspberryPi.
 
 
 
-## IoT smartwatch para confort térmico
-
-::: columns
-
-::: column
-**Objetivo**  
-Presentar un smartwatch IoT para la recolección de datos de confort térmico basado en tecnologías abiertas.
-
-**Encuestas horarias**  
-- Nivel de aislamiento de la ropa (clo) ¿
-- Actividad metabólica (met)  
-- Ubicación 
-- Sensación térmica y aceptación 
-:::
-
-::: column
-**Mediciones fisiológicas**  
-- Temperatura de piel en muñeca 
-- Frecuencia cardíaca 
-
-**Hardware de bajo costo**  
-- XIAO ESP32C3, GY-906, MAX30102, XIAO Round Display  
-- Publicación de datos en tiempo real en plataforma IoT 
-:::
-
-:::
-
-
 
 
 ## Smartwatch IoT open-source para datos de confort térmico
@@ -444,4 +416,4 @@ Presentar un smartwatch IoT para la recolección de datos de confort térmico ba
 ## [AltamarMx.github.io](https://altamarmx.github.io/)  
 
 
-![](img/qr_altamar.png){fig-align="center"} 
+![](img/qrcode_altamarmx.github.io.png){fig-align="center"} 

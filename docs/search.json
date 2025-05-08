@@ -74,7 +74,7 @@
     "href": "index.html#section",
     "title": "Monitoreo térmico y energético de edificaciones con software libre",
     "section": "",
-    "text": "¿Cómo resolvemos esto?"
+    "text": "¿Cómo resolvemos estas realidades?"
   },
   {
     "objectID": "index.html#alta-densidad-por-jorge-taboada",
@@ -131,13 +131,6 @@
     "title": "Monitoreo térmico y energético de edificaciones con software libre",
     "section": "DTHIS",
     "text": "DTHIS\n\nTemperatura aire, HR, CO2\nMapas de Iluminancia\n\nSonido\n\nBasado en RaspberryPi.\n\nRepositorio DTHIS"
-  },
-  {
-    "objectID": "index.html#iot-smartwatch-para-confort-térmico",
-    "href": "index.html#iot-smartwatch-para-confort-térmico",
-    "title": "Monitoreo térmico y energético de edificaciones con software libre",
-    "section": "IoT smartwatch para confort térmico",
-    "text": "IoT smartwatch para confort térmico\n\n\nObjetivo\nPresentar un smartwatch IoT para la recolección de datos de confort térmico basado en tecnologías abiertas.\nEncuestas horarias\n- Nivel de aislamiento de la ropa (clo) ¿ - Actividad metabólica (met)\n- Ubicación - Sensación térmica y aceptación\n\nMediciones fisiológicas\n- Temperatura de piel en muñeca - Frecuencia cardíaca\nHardware de bajo costo\n- XIAO ESP32C3, GY-906, MAX30102, XIAO Round Display\n- Publicación de datos en tiempo real en plataforma IoT"
   },
   {
     "objectID": "index.html#smartwatch-iot-open-source-para-datos-de-confort-térmico",
