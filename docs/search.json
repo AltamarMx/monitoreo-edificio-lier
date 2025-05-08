@@ -137,7 +137,7 @@
     "href": "index.html#smartwatch-iot-open-source-para-datos-de-confort-térmico",
     "title": "Monitoreo térmico y energético de edificaciones con software libre",
     "section": "Smartwatch IoT open-source para datos de confort térmico",
-    "text": "Smartwatch IoT open-source para datos de confort térmico\n\nEncuestas: clo (ropa), met, ubicación, sensación térmica\n\nFisiológicas: temperatura de piel (muñeca), frecuencia cardíaca\n\nHardware: XIAO ESP32C3, GY-906, MAX30102, XIAO Round Display; transmisión en tiempo real"
+    "text": "Smartwatch IoT open-source para datos de confort térmico\n\nEncuestas: clo (ropa), met, ubicación, sensación térmica\n\nFisiológicas: temperatura de piel (muñeca), frecuencia cardíaca\n\nHardware: XIAO ESP32C3, GY-906, MAX30102, XIAO Round Display; transmisión en tiempo real\n\nVe el paper aquí"
   },
   {
     "objectID": "index.html#smartwatch-iot-open-source-para-datos-de-confort-térmico-1",

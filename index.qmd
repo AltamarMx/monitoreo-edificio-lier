@@ -392,6 +392,7 @@ Basado en RaspberryPi.
 - **Encuestas**: clo (ropa), met, ubicación, sensación térmica  
 - **Fisiológicas**: temperatura de piel (muñeca), frecuencia cardíaca  
 - **Hardware**: XIAO ESP32C3, GY-906, MAX30102, XIAO Round Display; transmisión en tiempo real  
+- Ve el paper [aquí](https://www.sciencedirect.com/science/article/pii/S2468067225000112)
 
 
 
